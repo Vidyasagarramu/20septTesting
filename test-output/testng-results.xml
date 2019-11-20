@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63518" started-at="2019-11-14T10:50:30Z" finished-at="2019-11-14T10:51:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63518" started-at="2019-11-14T10:50:30Z" finished-at="2019-11-14T10:51:34Z">
+      <class name="Seleniumwebdriver.SeleniumWebDriver.LoginExcel">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Seleniumwebdriver.SeleniumWebDriver.LoginExcel@28d25987]" name="beforeTest" is-config="true" duration-ms="42186" started-at="2019-11-14T10:50:30Z" finished-at="2019-11-14T10:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Seleniumwebdriver.SeleniumWebDriver.LoginExcel@28d25987]" name="login" duration-ms="11511" started-at="2019-11-14T10:51:21Z" data-provider="loginDp" finished-at="2019-11-14T10:51:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Seleniumwebdriver.SeleniumWebDriver.LoginExcel@28d25987]" name="afterTest" is-config="true" duration-ms="1296" started-at="2019-11-14T10:51:32Z" finished-at="2019-11-14T10:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Seleniumwebdriver.SeleniumWebDriver.LoginExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
